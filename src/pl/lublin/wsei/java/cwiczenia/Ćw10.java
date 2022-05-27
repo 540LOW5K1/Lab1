@@ -18,7 +18,7 @@ public class Ćw10 {
         System.out.printf("DEC = %d, BIN = %s, HEX =%s", x, bin, hex);
     }
 
-    public static String leftPad(String aText, char aChar, int aWidth) {
+    private static String leftPad(String aText, char aChar, int aWidth) {
         String res = aText;
         for (int i = 0; i < aWidth - aText.length(); i++)
             res = aChar + res;
