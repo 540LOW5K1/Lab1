@@ -4,8 +4,11 @@ public class Ćw7 {
 
     public static void main(String[] args) {
 
-        System.out.print("Ala\n");
-        System.out.print("ma\n");
-        System.out.print("kota\n");
+        int a = 3;
+        double b = 4.21;
+        String s = "jakiś tekst";
+
+        System.out.printf("a = %d, b = %f, s = %s %n",a,b,s);
+
     }
 }
