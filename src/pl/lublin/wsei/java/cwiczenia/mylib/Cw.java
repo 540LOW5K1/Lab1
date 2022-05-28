@@ -8,7 +8,8 @@ public class Cw {
 
     public static void main(String[] args) {
         Account acc = new Account();
-        acc.setName("Eryk Sadłowski");
+//        acc.setName("Eryk Sadłowski");
+        acc.name = "Eryk Sadłowski";
         System.out.println(acc.getName());
     }
 }
